@@ -28,7 +28,8 @@ p {
 }
 
 .header,
-.hero {
+.hero,
+.call-to-action-container {
     padding-left: 10vw;
     padding-right: 10vw;
 }
@@ -167,4 +168,27 @@ h2 {
     font-style: normal;
     font-size: 24px;
     font-weight: 900;
+}
+
+.call-to-action {
+    margin: 2.5rem;
+    padding: 2rem;
+    display: flex;
+    gap: 15px;
+}
+
+.call-to-action .left {
+    flex: 1;
+}
+
+.call-to-action .right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-to-action button {
+    border: 2px solid #F9FAF8;
+    border-radius: 5px;
 }
