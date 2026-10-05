@@ -192,3 +192,9 @@ h2 {
     border: 2px solid #F9FAF8;
     border-radius: 5px;
 }
+
+.footer {
+    padding: 20px;
+    color: #F9FAF8;
+    text-align: center;
+}
