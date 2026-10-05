@@ -26,7 +26,8 @@ p {
     background-color: #1F2937;
 }
 
-.header, .hero {
+.header,
+.hero {
     padding-left: 10vw;
     padding-right: 10vw;
 }
@@ -113,11 +114,39 @@ button {
     border-radius: 5px;
 }
 
-
 .hero .right {
     flex: 1;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #808080;
+}
+
+h2 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    text-align: center;
+    margin: 2rem;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 36px;
+    text-align: center;
+}
+
+.card {
+    flex: 0 1 auto;
+    width: 200px;
+    margin-bottom: 2.5rem;
+}
+
+.card-frame {
+    border: 3px solid #3882F6;
+    border-radius: 10px;
+    height: 200px;
+    margin-bottom: 5px;
 }
