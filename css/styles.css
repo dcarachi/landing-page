@@ -18,6 +18,7 @@ h1 {
 
 p {
     text-align: justify;
+    margin-bottom: 5px;
 }
 
 .header,
@@ -98,7 +99,6 @@ p {
     max-width: 500px;
     font-size: 18px;
     color: #E5E7EB;
-    margin-bottom: 5px;
 }
 
 button,
@@ -149,4 +149,22 @@ h2 {
     border-radius: 10px;
     height: 200px;
     margin-bottom: 5px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    padding: 80px 20vw;
+    color: #1F2937;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+}
+
+.citation {
+    text-align: right;
+    font-style: normal;
+    font-size: 24px;
+    font-weight: 900;
 }
